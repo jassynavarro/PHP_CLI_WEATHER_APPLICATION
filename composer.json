@@ -1,0 +1,12 @@
+{
+    "name": "jassy/herd",
+    "description": "Our first php application",
+    "require": {
+        "guzzlehttp/guzzle": "^7.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jassy\\Herd\\": "src/"
+        }
+    }
+}
